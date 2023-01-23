@@ -10,36 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- font awesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              },
-              theme: {
-    screens: {
-      xs: '575px',
-      // => @media (min-width: 640px) { ... }
-
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... }
-    },
-  }
-}
-
-            }
-          }
-        
-      </script>
+    
 </head>
 <body>
     <!-- banner part start  -->
     <section>
-    <div class="sm:flex-wrap w-full md:flex-nowrap max-w-7xl g-5 mx-auto flex">
+    <div class="flex-wrap w-full md:flex-nowrap max-w-7xl g-5 mx-auto flex">
         <div class="sm:text-center sm:p-12">
             <h1 class="text-7xl font-semibold mt-5 font-Manrope">It's good<br> tea time at The<br> Tea House</h1>
             <p class="mt-3 mb-5">Tea and Botanical Solutions Supplier Give Optimum<br> Satisfaction To Your Taste Buds.</p>
@@ -64,7 +40,7 @@
             <h2 class="text-2xl font-bold text-center mb-5">Our Featured Products</h2>
         <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable.</p>
         </div>
-        <div class="flex md:flex-nowrap sm:flex-wrap md:p-8 justify-center items-center gap-5 mt-5">
+        <div class="flex md:flex-nowrap flex-wrap md:p-8 justify-center items-center gap-5 mt-5">
             <div class="h-96 w-64 bg-slate-200 rounded-2xl">
                 <div class="flex justify-center pt-5">
                     <img class="" src="./images/tea-1.png" alt="tea-1.png">
@@ -96,5 +72,170 @@
         </div>
     </section>
     <!-- featured part end  -->
+       <!-- great tea part start  -->
+    <section class="mt-32 px-16 container mx-auto">
+        <div class="flex gap-12 md:flex-row flex-col-reverse ">
+                <div class="grid h-100 w-full grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-3">
+                    <div class="rounded-xl h-24 w-44 bg-gradient-to-r from-red-100 to-yellow-100"></div>
+                    <div class="row-span-2 h-full h-62 w-44 rounded-xl bg-red-200 mx-auto p-8">
+                        <img class="" src="./images/fresh-1.png" alt="fresh-1.png">
+                    </div>
+                    <div class="row-span-2 rounded-xl bg-orange-200 h-full h-62 w-44 mx-auto p-8">
+                        <img class="" src="./images/fresh-2.png" alt="fresh-2.png">
+                    </div>
+                    <div class="rounded-xl h-24 w-24 bg-purple-200"></div>
+                </div>
+            <div class="">
+                <h1 class="text-4xl font-bold mb-5">Great Tea, Freshly Presented</h1>
+                    <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                    <h4 class="text-2xl font-bold mt-5">Unique Taste</h4>
+                    <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <h4 class="text-2xl font-bold mt-5">Premium Quality</h4>
+                    <p>Premium Quality that makes tea more elegant and more durable when you use it.Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+            </div>
+        </div>
+    </section>
+    <!-- great tea part end -->
+    <!-- client part start  -->
+    <section class="w-full max-w-6xl mx-auto mt-32 bg-gradient-to-r from-orange-500 to-red-600 mb-8 p-8">
+        <div class="md:flex-wrap lg:flex gap-16">
+            <div>
+                <h3 class="text-white font-bold text-4xl pt-12 p-5">Meet Our Super<br>Clients</h3>
+                <p class="text-white text-lg p-5">There are many variations of passages of Lorem Ipsum<br> available, but the majority have suffered alteration in some <br>form, by injected humour, or randomised words which don't <br>look even slightly believable. </p>
+               <div class="p-5">
+                <button class="bg-green-300 text-transparent bg-clip-text bg-gradient-to-r from-slate-500 to-red-800  border border-5 bg-white font-bold text-2xl py-3 px-5">Show All</button>
+               </div>
+            </div>
+            <div class="">
+                <div class="h-96 w-44 lg:h-52 lg:w-96 bg-red-200 rounded-2xl relative z-0 opacity-0.1">
+                    <div class="absolute -left-6 -top-2">
+                        <img src="./images/client.png" alt="client.png">
+                    </div>
+                    <p class="">We are providing the best and suitable home <br>insurance services for the people who are<br> interested to treatment</p>
+                    <h4 class="text-xl mt-5 font-bold">Ilham Yuda</h4>
+                    <p class="text-lg">Businessman</p>
+                </div>
+                <div class="relative">
+                    <div class="mt-5 md:mt-5 h-96 w-44 md:h-52 md:w-96 bg-white rounded-2xl lg:absolute md:-top-24 md:-left-16  z-10">
+                        <div class="absolute -left-6 -top-2">
+                            <img src="./images/client.png" alt="client.png">
+                        </div>
+                        <p class="">We are providing the best and suitable home <br>insurance services for the people who are<br> interested to treatment</p>
+                        <h4 class="text-xl mt-5 font-bold">Ilham Yuda</h4>
+                        <p class="text-lg">Businessman</p>
+                    </div>
+                </div>
+                <div class="h-96 w-44 lg:h-52 lg:w-96 bg-red-200 mt-8 rounded-2xl relative z-0">
+                    <div class="absolute -left-6 -top-2">
+                        <img src="./images/client.png" alt="client.png">
+                    </div>
+                    <p class="">We are providing the best and suitable home <br>insurance services for the people who are<br> interested to treatment</p>
+                    <h4 class="text-xl mt-5 font-bold">Ilham Yuda</h4>
+                    <p class="text-lg">Businessman</p>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <!-- client part end  -->
+    <!-- news event part start  -->
+    <section class="md:p-8 w-full max-w-6xl mx-auto mt-16">
+        <div>
+            <h2 class="text-4xl font-bold text-center">News & Events</h2>
+            <p class="text-center texl-lg mt-5 mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="flex-wrap md:flex-nowrap flex gap-5 justify-center">
+            <div class="border border-2 rounded-lg p-5">
+                <img class="w-full" src="./images/news-1.png" alt="">
+                <p class="mt-3">Feb 05, 2027</p>
+                <h3 class="font-bold text-xl mt-3 mb-3">Collecting 8 points for discount</h3>
+                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                <button class="border border-2 bg-slate-400 px-5 py-3 mt-3 rounded-xl">Learn More</button>
+            </div>
+            <div class="border border-2 rounded-lg p-5">
+                <img src="./images/news-2.png" alt="">
+                <p class="mt-3">Feb 05, 2027</p>
+                <h3 class="font-bold text-xl mt-3 mb-3">Collecting 8 points for discount</h3>
+                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                <button class="border border-2 bg-slate-400 px-5 py-3 mt-3 rounded-xl">Learn More</button>
+            </div>
+            <div class="border border-2 rounded-lg p-5">
+                <img src="./images/news-3.png" alt="">
+                <p class="mt-3">Feb 05, 2027</p>
+                <h3 class="font-bold text-xl mt-3 mb-3">Collecting 8 points for discount</h3>
+                <p class="">There are many variations of passages of Lorem Ipsum available.</p>
+                <button class="border border-2 bg-slate-400 px-5 py-3 mt-3 rounded-xl">Learn More</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- news event part end  -->
+    <!-- footer part star  -->
+    <section class="bg-red-100 mt-12 mb-5">
+      <div class=" w-full max-w-6xl mx-auto">
+        <div class="flex-wrap md:flex-nowrap flex justify-between p-5">
+            <div>
+                <img src="./images/cup.png" alt="">
+            </div>
+            <div class="flex justity-center items-center gap-5">
+                <div>
+                    <p>Ready to get strated?</p>
+                </div>
+                <div>
+                    <button class="px-8 py-3 bg-gradient-to-r from-orange-500 to-red-600 rounded text-white">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-wrap md:flex-nowrap flex justify-between">
+            <div class="flex-wrap md:flex-nowrap p-5">
+                <h3 class="font-bold text-2xl">Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="p-5 flex-wrap md:flex-nowrap">
+                <h3 class="font-bold text-2xl">Our Service</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="p-5 flex-wrap md:flex-nowrap">
+                <h3 class="font-bold text-2xl">Help</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="p-5 flex-wrap md:flex-nowrap">
+                <h3 class="font-bold text-2xl">Subscribe To Our<br> Newsletter</h3>
+             <div class="flex-wrap md:flex-nowrap flex justify-center gap-2 mt-3">
+                <div class="focus-within:shadow-lg border">
+                    <input type="text placeholder:Enter Your Email" />
+                  </div>
+             </hr>
+               <div class="h-8 w-8 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 p-1">
+                  <i class="fa-solid fa-arrow-right-long"></i>
+               </div>
+             </div>
+             <div class="flex gap-8 mt-5">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-dribbble"></i>
+             </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part end  -->
+  
+
 </body>
 </html>
